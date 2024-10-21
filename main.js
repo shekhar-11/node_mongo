@@ -7,3 +7,5 @@ app.use(bodyParser.json());
 const routerImport = require("./employeeRoute");
 app.use("/employee", routerImport);
 app.listen(3000);
+
+//all running
