@@ -1,3 +1,5 @@
+//THis comment is for the next version || THe models and the db files to be created seperately
+
 const mongoose = require("mongoose");
 
 const employee = new mongoose.Schema({
