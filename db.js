@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 // const db = mongoose.connect;
 // const url = "mongodb://localhost:27017/dbPractice";
-const url = MONGO_URL;
+const url = process.env.MONGO_URL;
 mongoose.connect(url);
 const database = mongoose.connection;
 
